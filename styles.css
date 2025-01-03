@@ -1,0 +1,65 @@
+/* Apply sky-blue background and text color */
+body {
+    background-color: #87CEEB; /* Sky blue background */
+    color: #333; /* Dark text for contrast */
+    font-family: 'Arial', sans-serif;
+}
+
+/* Style for containers */
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+/* Button customization */
+button, .MuiButton-root {
+    background-color: #00BFFF; /* Sky Blue for buttons */
+    color: white;
+    border-radius: 4px;
+}
+
+button:hover, .MuiButton-root:hover {
+    background-color: #1E90FF; /* Slightly darker blue on hover */
+}
+
+/* Table customization */
+table {
+    width: 100%;
+    border-collapse: collapse;
+}
+
+th, td {
+    padding: 12px;
+    text-align: left;
+}
+
+th {
+    background-color: #00BFFF;
+    color: white;
+}
+
+td {
+    background-color: #f2f2f2;
+}
+
+tr:hover {
+    background-color: #e0f7fa; /* Light blue highlight on hover */
+}
+
+/* Modal customization */
+.MuiModal-root {
+    background-color: rgba(0, 0, 0, 0.3);
+}
+
+.MuiPaper-root {
+    background-color: #ffffff;
+    border-radius: 8px;
+    padding: 20px;
+}
+
+/* Tooltip styling */
+.MuiTooltip-tooltip {
+    background-color: #00BFFF;
+    color: white;
+}

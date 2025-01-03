@@ -1,0 +1,54 @@
+/* App.css */
+
+body {
+  background-color: #e0f7fa; /* Crystal Sky Blue background */
+  color: #00796b; /* Darker teal text color for contrast */
+  font-family: 'Arial', sans-serif;
+}
+
+h2 {
+  color: #0288d1; /* Sky Blue for headings */
+}
+
+button {
+  background-color: #0288d1; /* Sky Blue for buttons */
+  color: white;
+  border: none;
+  padding: 10px 20px;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+button:hover {
+  background-color: #01579b; /* Darker Sky Blue on hover */
+}
+
+.table-row {
+  background-color: #ffffff; /* White for table rows */
+  border: 1px solid #0288d1; /* Sky Blue border */
+}
+
+.table-row:hover {
+  background-color: #b2ebf2; /* Light blue on hover */
+}
+
+.modal {
+  background-color: #ffffff;
+  padding: 20px;
+  border-radius: 5px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.tooltip {
+  background-color: #0288d1;
+  color: white;
+}
+
+.icon-button {
+  color: #0288d1;
+}
+
+.icon-button:hover {
+  color: #01579b;
+}
